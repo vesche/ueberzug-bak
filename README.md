@@ -44,13 +44,9 @@ but they will be installed by pip.
 
 ## Installation
 
-- Install by using pip:  
-  The package is named `ueberzug`  
-- Packages of linux distributions:  
-  At least one packager applies patches to my code.  
-  So if there are issues uninstall it and install it via pip.  
-  Actually I think it's not fine that they call it ueberzug after changing the code.  
-  As bugs introduced by them look like they are part of my work.  
+```
+$ pip install ueberzug-bak
+```
 
 Note: You can improve the performance of image manipulation functions
 by using [pillow-simd](https://github.com/uploadcare/pillow-simd) instead of pillow.

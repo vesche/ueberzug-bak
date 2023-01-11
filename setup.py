@@ -21,7 +21,7 @@ setuptools.setup(
     # There are some restrictions on what makes a valid project name
     # specification here:
     # https://packaging.python.org/specifications/core-metadata/#name
-    name='ueberzug',  # Required
+    name='ueberzug-bak',  # Required
     license=ueberzug.__license__,
 
     include_package_data=True,
