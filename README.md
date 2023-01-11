@@ -1,3 +1,5 @@
+NOTE: This is a fork of the original [ueberzug](https://github.com/seebye/ueberzug) project. I did not write this code.
+
 # Überzug
 
 Überzug is a command line util
