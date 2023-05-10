@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+import os
 import distutils.core
 import setuptools
 import glob
@@ -8,6 +10,10 @@ import ueberzug
 
 # Arguments marked as "Required" below must be included for upload to PyPI.
 # Fields marked as "Optional" may be commented out.
+
+directory = os.path.abspath(os.path.dirname(__file__))
+with open(os.path.join(directory, "README.md"), encoding="utf-8") as f:
+    long_description = f.read()
 
 setuptools.setup(
     # This is the name of your project. The first time you publish this
@@ -23,7 +29,8 @@ setuptools.setup(
     # https://packaging.python.org/specifications/core-metadata/#name
     name='ueberzug-bak',  # Required
     license=ueberzug.__license__,
-
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     include_package_data=True,
     package_data={
         '': ['*.sh'],
