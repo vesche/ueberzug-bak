@@ -107,7 +107,7 @@ setuptools.setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['pillow', 'docopt', 'attrs>=18.2.0'],  # Optional
+    install_requires=['pillow', 'docopt', 'attrs>=18.2.1'],  # Optional
     python_requires='>=3.6',
 
     # List additional URLs that are relevant to your project as a dict.
